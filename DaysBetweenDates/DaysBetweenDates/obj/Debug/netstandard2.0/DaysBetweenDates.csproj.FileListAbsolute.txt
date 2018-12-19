@@ -1,0 +1,12 @@
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\bin\Debug\netstandard2.0\DaysBetweenDates.deps.json
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\bin\Debug\netstandard2.0\DaysBetweenDates.dll
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\bin\Debug\netstandard2.0\DaysBetweenDates.pdb
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\obj\Debug\netstandard2.0\DaysBetweenDates.csprojAssemblyReference.cache
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\obj\Debug\netstandard2.0\App.xaml.g.cs
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\obj\Debug\netstandard2.0\DaysBetweenDates.csproj.CoreCompileInputs.cache
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\obj\Debug\netstandard2.0\DaysBetweenDates.AssemblyInfoInputs.cache
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\obj\Debug\netstandard2.0\DaysBetweenDates.AssemblyInfo.cs
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\obj\Debug\netstandard2.0\XamlC.stamp
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\obj\Debug\netstandard2.0\DaysBetweenDates.dll
+c:\users\antho\source\repos\DaysBetweenDates\DaysBetweenDates\DaysBetweenDates\obj\Debug\netstandard2.0\DaysBetweenDates.pdb

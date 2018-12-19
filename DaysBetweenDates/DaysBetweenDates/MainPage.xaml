@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+
+             xmlns:local="clr-namespace:DaysBetweenDates"
+
+             x:Class="DaysBetweenDates.MainPage"
+
+            BackgroundColor="LightBlue">
+
+
+    <StackLayout Margin="10">
+
+        <Label Text="Days Between Dates"
+
+               Style="{DynamicResource TitleStyle}"
+
+               Margin="20, 40"
+
+               HorizontalTextAlignment="Center" />
+
+
+
+        <Label Text="Please select the first date:" />
+
+        <!--set up the start date picker-->
+
+        <DatePicker x:Name="startDatePicker"
+
+                    Format="D"
+
+                    Margin="40, 10, 10, 40"
+
+                    DateSelected="OnDateSelected" 
+                    
+                    BackgroundColor="White"/>
+
+
+
+        <Label Text="Please select the second date:" />
+        
+        <!--set up the end date picker-->
+
+
+        <DatePicker x:Name="endDatePicker"
+
+                    MinimumDate="{Binding Source={x:Reference startDatePicker},
+
+                                          Path=Date}"
+
+                    Format="D"
+
+                    Margin="30, 0, 0, 30"
+
+                    DateSelected="OnDateSelected"
+                    
+                    BackgroundColor="White"/>
+
+
+        <!--add the option to include both the start day and end day in the total-->
+        
+        <StackLayout Orientation="Horizontal"
+
+                     Margin="0, 0, 0, 30">
+
+            <Label Text="Include both days in total: "
+
+                   VerticalOptions="Center" />
+
+            <Switch x:Name="includeSwitch"
+
+                    Toggled="OnSwitchToggled"
+                  
+                    />
+
+        </StackLayout>
+
+
+        <!--add the results-->
+        
+        <Label x:Name="resultLabel"
+
+               FontAttributes="Bold"
+
+               HorizontalTextAlignment="Center" />
+
+        <Label Text="Created by Anton Golubev "
+
+                   VerticalOptions="Center" />
+
+    </StackLayout>
+
+</ContentPage>
